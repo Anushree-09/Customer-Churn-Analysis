@@ -29,24 +29,20 @@ le = LabelEncoder()
 for col in df.select_dtypes(include=['object', 'string']).columns:
     df[col] = le.fit_transform(df[col])
 
-# ================================
-# 🔥 MODEL BUILDING (UPDATED PART)
-# ================================
-
 # Split features and target
 X = df.drop('Churn', axis=1)
 y = df['Churn']
 
-# 🔹 Scale the data
+# Scale the data
 from sklearn.preprocessing import StandardScaler
 scaler = StandardScaler()
 X_scaled = scaler.fit_transform(X)
 
-# 🔹 Train-test split using scaled data
+# Train-test split using scaled data
 from sklearn.model_selection import train_test_split
 X_train, X_test, y_train, y_test = train_test_split(X_scaled, y, test_size=0.2)
 
-# 🔹 Train model
+# Train model
 from sklearn.linear_model import LogisticRegression
 model = LogisticRegression(max_iter=2000)
 model.fit(X_train, y_train)
