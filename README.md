@@ -57,7 +57,8 @@ The solution combines data preprocessing, machine learning, and interactive dash
 
 # Dashboard (Power BI)
 
-The dashboard provides interactive insights into churn behavior
+The dashboard provides interactive insights into churn behavior.
+
 Open the .pbix file in Power BI Desktop to explore the dashboard.
 
 # Key Visuals:
