@@ -55,9 +55,9 @@ The solution combines data preprocessing, machine learning, and interactive dash
 * Contract Type
 * Payment Method
 
-# Dashboard (Power BI)
+## 📊 Dashboard Preview
 
-The dashboard provides interactive insights into churn behavior.
+![Dashboard](Dashboardscreenshots/CustomerChurnAnalysis.png)
 
 Open the .pbix file in Power BI Desktop to explore the dashboard.
 
