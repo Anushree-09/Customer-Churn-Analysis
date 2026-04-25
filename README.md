@@ -57,7 +57,9 @@ The solution combines data preprocessing, machine learning, and interactive dash
 
 ## 📊 Dashboard Preview
 
-![Dashboard](Dashboard screenshots/Customer Churn Analysis.png)
+![Dashboard](dashboard_screenshots/customer_churn_analysis.png)
+
+or
 
 Open the .pbix file in Power BI Desktop to explore the dashboard.
 
